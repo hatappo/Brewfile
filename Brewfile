@@ -26,6 +26,10 @@ cask vagrant
 cask virtualbox
 cask wireshark
 
+## caskroom/versions
+tap caskroom/versions
+cask sublime-text3
+
 ## homebrew/binary
 tap homebrew/binary
 
@@ -52,11 +56,6 @@ brew tree
 brew watch
 brew wget
 brew zsh
-
-# Below applications were installed by Cask,
-# but do not have corresponding casks.
-
-#cask sublime-text3 (!)
 
 # App Store applications
 appstore GarageBand
