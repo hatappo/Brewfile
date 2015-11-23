@@ -52,6 +52,7 @@ brew libevent
 brew libtool
 brew nkf
 brew openssl
+brew pcre
 brew pidof
 brew proctools
 brew tmux
