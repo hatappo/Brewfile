@@ -28,6 +28,7 @@ cask wireshark
 
 ## caskroom/versions
 tap caskroom/versions
+cask firefox-ja
 cask sublime-text3
 
 ## homebrew/binary
