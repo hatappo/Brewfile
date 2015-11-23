@@ -46,6 +46,7 @@ brew ack
 brew autoconf
 brew automake
 brew cmake
+brew gdbm
 brew jq
 brew libevent
 brew libtool
