@@ -47,6 +47,7 @@ brew autoconf
 brew automake
 brew cmake
 brew jq
+brew libevent
 brew libtool
 brew nkf
 brew openssl
