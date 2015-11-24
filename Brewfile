@@ -51,11 +51,14 @@ brew jq
 brew libevent
 brew libtool
 brew lzlib
+brew mysql
 brew nkf
 brew openssl
 brew pcre
 brew pidof
 brew proctools
+brew pyenv
+brew pyenv-virtualenv
 brew readline
 brew tmux
 brew tree
