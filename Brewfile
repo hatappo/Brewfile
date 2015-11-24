@@ -9,7 +9,6 @@ cask adobe-reader
 cask appcleaner
 cask bettertouchtool
 cask coteditor
-cask firefox
 cask github-desktop
 cask google-chrome
 cask google-japanese-ime
@@ -60,6 +59,7 @@ brew proctools
 brew pyenv
 brew pyenv-virtualenv
 brew readline
+brew tig
 brew tmux
 brew tree
 brew watch
