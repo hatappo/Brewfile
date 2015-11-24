@@ -50,11 +50,13 @@ brew gdbm
 brew jq
 brew libevent
 brew libtool
+brew lzlib
 brew nkf
 brew openssl
 brew pcre
 brew pidof
 brew proctools
+brew readline
 brew tmux
 brew tree
 brew watch
