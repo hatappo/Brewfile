@@ -33,6 +33,12 @@ cask sublime-text3
 ## homebrew/binary
 tap homebrew/binary
 
+## homebrew/dupes
+tap homebrew/dupes
+
+## homebrew/php
+tap homebrew/php
+
 ## homebrew/versions
 tap homebrew/versions
 
