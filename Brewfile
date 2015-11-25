@@ -56,6 +56,7 @@ brew autoconf
 brew automake
 brew cmake
 brew gdbm
+brew git-flow
 brew jq
 brew libevent
 brew libtool
