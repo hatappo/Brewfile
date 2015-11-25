@@ -38,6 +38,7 @@ tap homebrew/dupes
 
 ## homebrew/php
 tap homebrew/php
+brew phplint
 
 ## homebrew/versions
 tap homebrew/versions
