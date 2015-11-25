@@ -38,7 +38,10 @@ tap homebrew/dupes
 
 ## homebrew/php
 tap homebrew/php
+brew php-build
+brew phpenv
 brew phplint
+brew psysh
 
 ## homebrew/versions
 tap homebrew/versions
