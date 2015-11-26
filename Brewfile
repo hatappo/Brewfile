@@ -14,6 +14,7 @@ cask google-chrome
 cask google-japanese-ime
 cask intellij-idea-ce
 cask iterm2
+cask kindle
 cask lighttable
 cask mysqlworkbench
 cask opera
@@ -63,6 +64,7 @@ brew libtool
 brew lzlib
 brew mysql
 brew nkf
+brew node
 brew openssl
 brew pcre
 brew pidof
