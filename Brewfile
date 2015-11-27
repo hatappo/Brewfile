@@ -55,6 +55,7 @@ brew brew-file
 brew ack
 brew autoconf
 brew automake
+brew awscli
 brew cmake
 brew gdbm
 brew git-flow
