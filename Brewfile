@@ -51,6 +51,10 @@ tap homebrew/versions
 tap rcmdnk/file
 brew brew-file
 
+## rcmdnk/rcmdnkpac
+tap rcmdnk/rcmdnkpac
+brew screenutf8 --utf8
+
 # Other Homebrew packages
 brew ack
 brew autoconf
@@ -60,6 +64,7 @@ brew cmake
 brew gdbm
 brew git-flow
 brew jq
+brew leiningen
 brew libevent
 brew libtool
 brew lzlib
