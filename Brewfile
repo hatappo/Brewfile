@@ -12,8 +12,10 @@ cask coteditor
 cask github-desktop
 cask google-chrome
 cask google-japanese-ime
+cask image-tool
 cask intellij-idea-ce
 cask iterm2
+cask java
 cask kindle
 cask lighttable
 cask mysqlworkbench
@@ -69,9 +71,11 @@ brew libevent
 brew libtool
 brew lzlib
 brew mysql
+brew nginx
 brew nkf
 brew node
 brew openssl
+brew pandoc
 brew pcre
 brew pidof
 brew proctools
@@ -87,6 +91,7 @@ brew zsh
 
 # App Store applications
 appstore GarageBand
+appstore iMage Tools
 appstore iMovie
 appstore Keynote
 appstore Numbers
