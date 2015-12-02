@@ -64,6 +64,7 @@ brew awscli
 brew cmake
 brew gdbm
 brew git-flow
+brew jenv
 brew jq
 brew leiningen
 brew libevent
