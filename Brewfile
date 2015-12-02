@@ -12,7 +12,6 @@ cask coteditor
 cask github-desktop
 cask google-chrome
 cask google-japanese-ime
-cask image-tool
 cask intellij-idea-ce
 cask iterm2
 cask java
