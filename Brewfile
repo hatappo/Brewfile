@@ -3,12 +3,12 @@
 
 ## caskroom/cask
 tap caskroom/cask
-brew brew-cask
 cask 1password
 cask adobe-reader
 cask appcleaner
 cask bettertouchtool
 cask coteditor
+cask diffmerge
 cask github-desktop
 cask google-chrome
 cask google-japanese-ime
@@ -37,6 +37,7 @@ tap homebrew/binary
 
 ## homebrew/dupes
 tap homebrew/dupes
+brew libiconv
 
 ## homebrew/php
 tap homebrew/php
@@ -61,30 +62,39 @@ brew ack
 brew autoconf
 brew automake
 brew awscli
+brew boost
 brew cmake
 brew gdbm
 brew git-flow
+brew gmp
 brew jenv
 brew jq
 brew leiningen
 brew libevent
 brew libtool
+brew libxml2
+brew libxslt
 brew lzlib
 brew mysql
 brew nginx
 brew nkf
-brew node
+brew oniguruma
 brew openssl
 brew pandoc
 brew pcre
 brew pidof
+brew pkg-config
 brew proctools
 brew pyenv
 brew pyenv-virtualenv
+brew rbenv
 brew readline
+brew ruby-build
+brew shellcheck
 brew tig
 brew tmux
 brew tree
+brew upx
 brew watch
 brew wget
 brew zsh
