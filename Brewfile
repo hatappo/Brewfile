@@ -30,6 +30,7 @@ cask wireshark
 ## caskroom/versions
 tap caskroom/versions
 cask firefox-ja
+cask java7
 cask sublime-text3
 
 ## homebrew/binary
@@ -75,6 +76,7 @@ brew libtool
 brew libxml2
 brew libxslt
 brew lzlib
+brew maven
 brew mysql
 brew nginx
 brew nkf
@@ -91,6 +93,7 @@ brew rbenv
 brew readline
 brew ruby-build
 brew shellcheck
+brew swagger-codegen
 brew tig
 brew tmux
 brew tree
