@@ -19,6 +19,7 @@ cask kindle
 cask lighttable
 cask mysqlworkbench
 cask opera
+cask skitch
 cask skype
 cask slack
 cask sourcetree
