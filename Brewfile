@@ -1,7 +1,6 @@
 
 # tap repositories and their packages
 
-## caskroom/cask
 tap caskroom/cask
 cask 1password
 cask adobe-reader
@@ -27,35 +26,28 @@ cask vagrant
 cask virtualbox
 cask wireshark
 
-## caskroom/versions
 tap caskroom/versions
 cask firefox-ja
 cask intellij-idea-ce
 cask java7
 cask sublime-text3
 
-## homebrew/binary
 tap homebrew/binary
 
-## homebrew/dupes
 tap homebrew/dupes
 brew libiconv
 
-## homebrew/php
 tap homebrew/php
 brew php-build
 brew phpenv
 brew phplint
 brew psysh
 
-## homebrew/versions
 tap homebrew/versions
 
-## rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
-## rcmdnk/rcmdnkpac
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
 
