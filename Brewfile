@@ -12,7 +12,6 @@ cask diffmerge
 cask github-desktop
 cask google-chrome
 cask google-japanese-ime
-cask intellij-idea-ce
 cask iterm2
 cask java
 cask kindle
@@ -31,6 +30,7 @@ cask wireshark
 ## caskroom/versions
 tap caskroom/versions
 cask firefox-ja
+cask intellij-idea-ce
 cask java7
 cask sublime-text3
 
@@ -69,6 +69,7 @@ brew cmake
 brew gdbm
 brew git-flow
 brew gmp
+brew imagemagick
 brew jenv
 brew jq
 brew leiningen
