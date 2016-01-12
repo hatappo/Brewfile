@@ -58,14 +58,18 @@ brew automake
 brew awscli
 brew boost
 brew cmake
+brew freetype
 brew gdbm
 brew git-flow
 brew gmp
 brew imagemagick
 brew jenv
+brew jpeg
 brew jq
 brew leiningen
 brew libevent
+brew libpng
+brew libtiff
 brew libtool
 brew libxml2
 brew libxslt
@@ -94,6 +98,7 @@ brew tree
 brew upx
 brew watch
 brew wget
+brew xz
 brew zsh
 
 # App Store applications
