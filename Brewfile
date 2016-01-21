@@ -92,6 +92,7 @@ brew readline
 brew ruby-build
 brew shellcheck
 brew swagger-codegen
+brew tidyp
 brew tig
 brew tmux
 brew tree
