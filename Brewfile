@@ -89,9 +89,11 @@ brew pyenv
 brew pyenv-virtualenv
 brew rbenv
 brew readline
+brew rmtrash
 brew ruby-build
 brew shellcheck
 brew swagger-codegen
+brew terminal-notifier
 brew tidyp
 brew tig
 brew tmux
