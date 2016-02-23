@@ -14,7 +14,6 @@ cask vagrant
 cask virtualbox
 
 tap caskroom/versions
-cask firefox-ja
 cask intellij-idea-ce
 cask java7
 cask sublime-text3
