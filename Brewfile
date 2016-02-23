@@ -37,6 +37,9 @@ brew brew-file
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
 
+tap argon/mas
+brew mas
+
 # Other Homebrew packages
 brew ack
 brew autoconf
