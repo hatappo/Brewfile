@@ -16,7 +16,6 @@ cask virtualbox
 tap caskroom/versions
 cask intellij-idea-ce
 cask java7
-cask sublime-text3
 
 tap homebrew/binary
 
