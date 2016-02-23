@@ -4,27 +4,14 @@
 tap caskroom/cask
 cask 1password
 cask adobe-reader
-cask appcleaner
-cask bettertouchtool
-cask coteditor
-cask diffmerge
-cask github-desktop
 cask google-chrome
 cask google-japanese-ime
 cask iterm2
 cask java
-cask kindle
-cask lighttable
 cask mysqlworkbench
 cask opera
-cask skitch
-cask skype
-cask slack
-cask sourcetree
-cask tunnelblick
 cask vagrant
 cask virtualbox
-cask wireshark
 
 tap caskroom/versions
 cask firefox-ja
