@@ -3,7 +3,6 @@
 
 tap caskroom/cask
 cask 1password
-cask adobe-reader
 cask google-chrome
 cask google-japanese-ime
 cask iterm2
@@ -16,7 +15,6 @@ cask virtualbox
 tap caskroom/versions
 cask intellij-idea-ce
 cask java7
-cask sublime-text3
 
 tap homebrew/binary
 
@@ -47,6 +45,7 @@ brew automake
 brew awscli
 brew boost
 brew cmake
+brew fontforge
 brew freetype
 brew gdbm
 brew git-flow
