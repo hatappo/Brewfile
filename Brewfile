@@ -1,6 +1,9 @@
 
 # tap repositories and their packages
 
+tap argon/mas
+brew mas
+
 tap caskroom/cask
 cask 1password
 cask google-chrome
@@ -13,7 +16,6 @@ cask vagrant
 cask virtualbox
 
 tap caskroom/versions
-cask intellij-idea-ce
 cask java7
 
 tap homebrew/binary
@@ -23,6 +25,7 @@ brew libiconv
 
 tap homebrew/php
 brew php-build
+brew php70
 brew phpenv
 brew phplint
 brew psysh
@@ -35,9 +38,6 @@ brew brew-file
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
 
-tap argon/mas
-brew mas
-
 # Other Homebrew packages
 brew ack
 brew autoconf
@@ -48,8 +48,10 @@ brew cmake
 brew fontforge
 brew freetype
 brew gdbm
+brew gettext
 brew git-flow
 brew gmp
+brew icu4c
 brew imagemagick
 brew jenv
 brew jpeg
@@ -86,6 +88,7 @@ brew tidyp
 brew tig
 brew tmux
 brew tree
+brew unixodbc
 brew upx
 brew watch
 brew wget
@@ -93,10 +96,10 @@ brew xz
 brew zsh
 
 # App Store applications
-appstore GarageBand
-appstore iMage Tools
-appstore iMovie
-appstore Keynote
-appstore Numbers
-appstore Pages
-appstore Xcode
+appstore 682658836 GarageBand
+appstore 409183694 Keynote
+appstore 409203825 Numbers
+appstore 409201541 Pages
+appstore 497799835 Xcode
+appstore 493949693 iMage Tools
+appstore 408981434 iMovie
