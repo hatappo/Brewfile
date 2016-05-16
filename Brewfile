@@ -20,25 +20,7 @@ cask java7
 
 tap homebrew/binary
 
-tap homebrew/dupes
-brew libiconv
-
-tap homebrew/php
-brew php-build
-brew php70
-brew phpenv
-brew phplint
-brew psysh
-
-tap homebrew/versions
-
-tap rcmdnk/file
-brew brew-file
-
-tap rcmdnk/rcmdnkpac
-brew screenutf8 --utf8
-
-# Other Homebrew packages
+tap homebrew/core
 brew ack
 brew atk
 brew autoconf
@@ -48,7 +30,6 @@ brew bdw-gc
 brew boost
 brew cairo
 brew cmake
-brew d-bus
 brew doxygen
 brew emacs --with-cocoa
 brew fftw
@@ -123,10 +104,12 @@ brew pidof
 brew pixman
 brew pkg-config
 brew proctools
-brew pyenv
 brew pyenv-virtualenv
+brew pyenv
 brew rbenv
 brew readline
+brew rename
+brew rlwrap
 brew rmtrash
 brew ruby-build
 brew shellcheck
@@ -146,6 +129,24 @@ brew wget
 brew xz
 brew yasm
 brew zsh
+
+tap homebrew/dupes
+brew libiconv
+
+tap homebrew/php
+brew php-build
+brew php70
+brew phpenv
+brew phplint
+brew psysh
+
+tap homebrew/versions
+
+tap rcmdnk/file
+brew brew-file
+
+tap rcmdnk/rcmdnkpac
+brew screenutf8 --utf8
 
 # App Store applications
 appstore 682658836 GarageBand
