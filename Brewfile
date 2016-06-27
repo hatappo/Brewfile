@@ -8,6 +8,7 @@ tap caskroom/cask
 cask 1password
 cask google-japanese-ime
 cask java
+cask mysqlworkbench
 cask vagrant
 cask virtualbox
 
@@ -148,8 +149,6 @@ brew brew-file
 
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
-
-# Cask applications
 
 # App Store applications
 appstore 682658836 GarageBand
