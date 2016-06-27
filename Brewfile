@@ -6,9 +6,7 @@ brew mas
 
 tap caskroom/cask
 cask 1password
-cask google-chrome
 cask google-japanese-ime
-cask iterm2
 cask java
 cask vagrant
 cask virtualbox
