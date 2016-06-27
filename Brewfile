@@ -40,6 +40,7 @@ brew gd
 brew gdbm
 brew gdk-pixbuf
 brew gettext
+brew ghc
 brew ghostscript
 brew giflib
 brew git-flow
@@ -89,6 +90,7 @@ brew lzlib
 brew mailutils
 brew makedepend
 brew maven
+brew mono
 brew mysql
 brew netpbm
 brew nettle
@@ -112,6 +114,7 @@ brew rename
 brew rlwrap
 brew rmtrash
 brew ruby-build
+brew sbcl
 brew shellcheck
 brew sphinx-doc
 brew swagger-codegen
@@ -147,6 +150,21 @@ brew brew-file
 
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
+
+# Cask applications
+cask   --caskroom=/opt/homebrew-cask/Caskroom
+
+# Below applications were installed by Cask,
+# but do not have corresponding casks.
+
+#cask Warning: The default Caskroom location has moved to /usr/local/Caskroom.
+#cask 
+#cask Please migrate your Casks to the new location and delete /opt/homebrew-cask/Caskroom,
+#cask or if you would like to keep your Caskroom at /opt/homebrew-cask/Caskroom, add the
+#cask following to your HOMEBREW_CASK_OPTS:
+#cask 
+#cask 
+#cask For more details on each of those options, see https://github.com/caskroom/homebrew-cask/issues/21913.
 
 # App Store applications
 appstore 682658836 GarageBand
