@@ -15,6 +15,7 @@ tap caskroom/versions
 cask java7
 
 tap homebrew/binary
+brew grenchman
 
 tap homebrew/core
 brew ack
@@ -103,6 +104,7 @@ brew pixman
 brew pkg-config
 brew planck
 brew proctools
+brew pstree
 brew pyenv-virtualenv
 brew pyenv
 brew rbenv
