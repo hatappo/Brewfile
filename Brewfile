@@ -15,10 +15,10 @@ tap caskroom/versions
 cask java7
 
 tap homebrew/binary
-brew grenchman
 
 tap homebrew/core
 brew ack
+brew aspcud
 brew atk
 brew autoconf
 brew automake
@@ -26,8 +26,11 @@ brew awscli
 brew bdw-gc
 brew boost
 brew cairo
+brew camlp4
+brew clasp
 brew cmake
 brew doxygen
+brew drip
 brew emacs --with-cocoa
 brew fftw
 brew fontconfig
@@ -47,6 +50,7 @@ brew gnutls
 brew gobject-introspection
 brew graphite2
 brew graphviz
+brew gringo
 brew gsasl
 brew gsettings-desktop-schemas
 brew gtk+3
@@ -89,11 +93,15 @@ brew makedepend
 brew maven
 brew mono
 brew mysql
+brew nailgun
 brew netpbm
 brew nettle
 brew nginx
 brew nkf
+brew ocaml
+brew ocamlbuild
 brew oniguruma
+brew opam
 brew openexr
 brew openssl
 brew pandoc
