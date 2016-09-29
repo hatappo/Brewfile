@@ -2,26 +2,21 @@
 # tap repositories and their packages
 
 tap argon/mas
+brew mas
 
 tap caskroom/cask
+cask 1password
+cask google-japanese-ime
+cask java
+cask vagrant
+cask virtualbox
 
 tap caskroom/versions
+cask java7
 
 tap homebrew/binary
 
 tap homebrew/core
-
-tap homebrew/dupes
-
-tap homebrew/php
-
-tap homebrew/versions
-
-tap rcmdnk/file
-
-tap rcmdnk/rcmdnkpac
-
-# Other Homebrew packages
 brew ack
 brew aspcud
 brew atk
@@ -30,7 +25,6 @@ brew automake
 brew awscli
 brew bdw-gc
 brew boost
-brew brew-file
 brew cairo
 brew camlp4
 brew clasp
@@ -64,6 +58,7 @@ brew gts
 brew guile
 brew harfbuzz
 brew hicolor-icon-theme
+brew htop
 brew hugo
 brew icu4c
 brew ilmbase
@@ -80,7 +75,6 @@ brew libepoxy
 brew libevent
 brew libffi
 brew libgsf
-brew libiconv
 brew liblqr
 brew libntlm
 brew libpng
@@ -98,7 +92,6 @@ brew little-cms2
 brew lzlib
 brew mailutils
 brew makedepend
-brew mas
 brew maven
 brew mono
 brew mysql
@@ -116,17 +109,12 @@ brew openssl
 brew pandoc
 brew pango
 brew pcre
-brew php-build
-brew php70
-brew phpenv
-brew phplint
 brew pidof
 brew pixman
 brew pkg-config
 brew planck
 brew proctools
 brew pstree
-brew psysh
 brew pyenv
 brew pyenv-virtualenv
 brew rbenv
@@ -137,7 +125,6 @@ brew rmtrash
 brew ruby-build
 brew sbcl
 brew sbt
-brew screenutf8 --utf8
 brew shellcheck
 brew sphinx-doc
 brew swagger-codegen
@@ -156,13 +143,23 @@ brew xz
 brew yasm
 brew zsh
 
-# Cask applications
-cask 1password
-cask google-japanese-ime
-cask java
-cask java7
-cask vagrant
-cask virtualbox
+tap homebrew/dupes
+brew libiconv
+
+tap homebrew/php
+brew php-build
+brew php70
+brew phpenv
+brew phplint
+brew psysh
+
+tap homebrew/versions
+
+tap rcmdnk/file
+brew brew-file
+
+tap rcmdnk/rcmdnkpac
+brew screenutf8 --utf8
 
 # App Store applications
 appstore 682658836 GarageBand (10.1.2)
