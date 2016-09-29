@@ -2,21 +2,26 @@
 # tap repositories and their packages
 
 tap argon/mas
-brew mas
 
 tap caskroom/cask
-cask 1password
-cask google-japanese-ime
-cask java
-cask vagrant
-cask virtualbox
 
 tap caskroom/versions
-cask java7
 
 tap homebrew/binary
 
 tap homebrew/core
+
+tap homebrew/dupes
+
+tap homebrew/php
+
+tap homebrew/versions
+
+tap rcmdnk/file
+
+tap rcmdnk/rcmdnkpac
+
+# Other Homebrew packages
 brew ack
 brew aspcud
 brew atk
@@ -25,6 +30,7 @@ brew automake
 brew awscli
 brew bdw-gc
 brew boost
+brew brew-file
 brew cairo
 brew camlp4
 brew clasp
@@ -58,6 +64,7 @@ brew gts
 brew guile
 brew harfbuzz
 brew hicolor-icon-theme
+brew hugo
 brew icu4c
 brew ilmbase
 brew imagemagick
@@ -73,6 +80,7 @@ brew libepoxy
 brew libevent
 brew libffi
 brew libgsf
+brew libiconv
 brew liblqr
 brew libntlm
 brew libpng
@@ -90,6 +98,7 @@ brew little-cms2
 brew lzlib
 brew mailutils
 brew makedepend
+brew mas
 brew maven
 brew mono
 brew mysql
@@ -107,14 +116,19 @@ brew openssl
 brew pandoc
 brew pango
 brew pcre
+brew php-build
+brew php70
+brew phpenv
+brew phplint
 brew pidof
 brew pixman
 brew pkg-config
 brew planck
 brew proctools
 brew pstree
-brew pyenv-virtualenv
+brew psysh
 brew pyenv
+brew pyenv-virtualenv
 brew rbenv
 brew readline
 brew rename
@@ -123,6 +137,7 @@ brew rmtrash
 brew ruby-build
 brew sbcl
 brew sbt
+brew screenutf8 --utf8
 brew shellcheck
 brew sphinx-doc
 brew swagger-codegen
@@ -141,29 +156,19 @@ brew xz
 brew yasm
 brew zsh
 
-tap homebrew/dupes
-brew libiconv
-
-tap homebrew/php
-brew php-build
-brew php70
-brew phpenv
-brew phplint
-brew psysh
-
-tap homebrew/versions
-
-tap rcmdnk/file
-brew brew-file
-
-tap rcmdnk/rcmdnkpac
-brew screenutf8 --utf8
+# Cask applications
+cask 1password
+cask google-japanese-ime
+cask java
+cask java7
+cask vagrant
+cask virtualbox
 
 # App Store applications
-appstore 682658836 GarageBand
-appstore 409183694 Keynote
-appstore 409203825 Numbers
-appstore 409201541 Pages
-appstore 497799835 Xcode
-appstore 493949693 iMage Tools
-appstore 408981434 iMovie
+appstore 682658836 GarageBand (10.1.2)
+appstore 409183694 Keynote (6.6.2)
+appstore 409203825 Numbers (3.6.2)
+appstore 409201541 Pages (5.6.2)
+appstore 497799835 Xcode (7.3.1)
+appstore 493949693 iMage Tools (1.0.16)
+appstore 408981434 iMovie (10.1.2)
