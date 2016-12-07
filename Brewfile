@@ -4,16 +4,6 @@
 tap argon/mas
 brew mas
 
-tap caskroom/cask
-cask 1password
-cask google-japanese-ime
-cask java
-cask vagrant
-cask virtualbox
-
-tap caskroom/versions
-cask java7
-
 tap homebrew/binary
 
 tap homebrew/core
@@ -160,12 +150,3 @@ brew brew-file
 
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
-
-# App Store applications
-appstore 682658836 GarageBand (10.1.2)
-appstore 409183694 Keynote (6.6.2)
-appstore 409203825 Numbers (3.6.2)
-appstore 409201541 Pages (5.6.2)
-appstore 497799835 Xcode (7.3.1)
-appstore 493949693 iMage Tools (1.0.16)
-appstore 408981434 iMovie (10.1.2)
