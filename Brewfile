@@ -4,6 +4,9 @@
 tap argon/mas
 brew mas
 
+tap caskroom/cask
+cask java
+
 tap homebrew/binary
 
 tap homebrew/core
@@ -125,7 +128,6 @@ brew tmux
 brew tree
 brew unbound
 brew unixodbc
-brew upx
 brew watch
 brew webp
 brew wget
