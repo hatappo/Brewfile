@@ -7,6 +7,10 @@ brew mas
 tap caskroom/cask
 cask java
 
+tap caskroom/fonts
+cask font-myrica
+cask font-myricam
+
 tap homebrew/binary
 
 tap homebrew/core
@@ -99,6 +103,7 @@ brew oniguruma
 brew opam
 brew openexr
 brew openssl
+brew openssl@1.1
 brew pandoc
 brew pango
 brew pcre
@@ -118,6 +123,7 @@ brew rmtrash
 brew ruby-build
 brew sbcl
 brew sbt
+brew shared-mime-info
 brew shellcheck
 brew sphinx-doc
 brew swagger-codegen
@@ -152,3 +158,8 @@ brew brew-file
 
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
+
+# App Store applications
+appstore 1024640650 CotEditor (3.1.1)
+appstore 497799835 Xcode (8.1)
+appstore 493949693 iMage Tools (1.0.16)
