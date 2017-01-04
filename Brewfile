@@ -40,6 +40,7 @@ brew gettext
 brew ghc
 brew ghostscript
 brew giflib
+brew git
 brew git-flow
 brew glib
 brew gmp
@@ -104,6 +105,7 @@ brew opam
 brew openexr
 brew openssl
 brew openssl@1.1
+brew p11-kit
 brew pandoc
 brew pango
 brew pcre
@@ -160,6 +162,6 @@ tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
 
 # App Store applications
-appstore 1024640650 CotEditor (3.1.1)
-appstore 497799835 Xcode (8.1)
+appstore 1024640650 CotEditor (3.1.2)
+appstore 497799835 Xcode (8.2.1)
 appstore 493949693 iMage Tools (1.0.16)
