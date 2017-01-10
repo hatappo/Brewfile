@@ -16,6 +16,7 @@ tap homebrew/binary
 tap homebrew/core
 brew ack
 brew aspcud
+brew aspell
 brew atk
 brew autoconf
 brew automake
@@ -26,6 +27,7 @@ brew cairo
 brew camlp4
 brew clasp
 brew cmake
+brew curl
 brew doxygen
 brew drip
 brew emacs --with-cocoa
@@ -72,6 +74,8 @@ brew libcroco
 brew libepoxy
 brew libevent
 brew libffi
+brew libgcrypt
+brew libgpg-error
 brew libgsf
 brew liblqr
 brew libntlm
@@ -85,8 +89,10 @@ brew libvpx
 brew libwmf
 brew libxml2
 brew libxslt
+brew libyaml
 brew little-cms
 brew little-cms2
+brew lua
 brew lzlib
 brew mailutils
 brew makedepend
@@ -122,6 +128,7 @@ brew readline
 brew rename
 brew rlwrap
 brew rmtrash
+brew ruby
 brew ruby-build
 brew sbcl
 brew sbt
@@ -138,6 +145,7 @@ brew unbound
 brew unixodbc
 brew watch
 brew webp
+brew weechat --with-aspell --with-curl --with-python --with-perl --with-ruby --with-lua
 brew wget
 brew xz
 brew yasm
