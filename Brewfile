@@ -90,6 +90,7 @@ brew libwmf
 brew libxml2
 brew libxslt
 brew libyaml
+brew libzip
 brew little-cms
 brew little-cms2
 brew lua
@@ -104,6 +105,7 @@ brew netpbm
 brew nettle
 brew nginx
 brew nkf
+brew nodebrew
 brew ocaml
 brew ocamlbuild
 brew oniguruma
@@ -115,6 +117,7 @@ brew p11-kit
 brew pandoc
 brew pango
 brew pcre
+brew phantomjs
 brew pidof
 brew pixman
 brew pkg-config
@@ -157,7 +160,6 @@ brew libiconv
 tap homebrew/php
 brew php-build
 brew php70
-brew phpenv
 brew phplint
 brew psysh
 
@@ -168,6 +170,9 @@ brew brew-file
 
 tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
+
+# Other Homebrew packages
+brew phpenv
 
 # App Store applications
 appstore 1024640650 CotEditor (3.1.2)
