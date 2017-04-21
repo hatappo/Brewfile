@@ -13,6 +13,8 @@ cask font-myricam
 
 tap homebrew/binary
 
+tap homebrew/boneyard
+
 tap homebrew/core
 brew ack
 brew aspcud
@@ -77,6 +79,7 @@ brew libffi
 brew libgcrypt
 brew libgpg-error
 brew libgsf
+brew libiconv
 brew liblqr
 brew libntlm
 brew libpng
@@ -126,6 +129,7 @@ brew proctools
 brew pstree
 brew pyenv
 brew pyenv-virtualenv
+brew python
 brew rbenv
 brew readline
 brew rename
@@ -138,6 +142,7 @@ brew sbt
 brew shared-mime-info
 brew shellcheck
 brew sphinx-doc
+brew sqlite
 brew swagger-codegen
 brew terminal-notifier
 brew tidyp
@@ -148,14 +153,13 @@ brew unbound
 brew unixodbc
 brew watch
 brew webp
-brew weechat --with-aspell --with-curl --with-python --with-perl --with-ruby --with-lua
+brew weechat --with-perl --with-ruby --with-curl --with-aspell --with-lua --with-python
 brew wget
 brew xz
 brew yasm
 brew zsh
 
 tap homebrew/dupes
-brew libiconv
 
 tap homebrew/php
 brew php-build
@@ -175,6 +179,7 @@ brew screenutf8 --utf8
 brew phpenv
 
 # App Store applications
-appstore 1024640650 CotEditor (3.1.2)
-appstore 497799835 Xcode (8.2.1)
+appstore 1024640650 CotEditor (3.1.8)
+appstore 715768417 Microsoft Remote Desktop (8.0.27253)
+appstore 497799835 Xcode (8.3.2)
 appstore 493949693 iMage Tools (1.0.16)
