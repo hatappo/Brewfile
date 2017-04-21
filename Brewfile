@@ -180,6 +180,6 @@ brew phpenv
 
 # App Store applications
 appstore 1024640650 CotEditor (3.1.8)
+appstore 493949693 iMage Tools (1.0.16)
 appstore 715768417 Microsoft Remote Desktop (8.0.27253)
 appstore 497799835 Xcode (8.3.2)
-appstore 493949693 iMage Tools (1.0.16)
