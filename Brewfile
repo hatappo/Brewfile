@@ -63,6 +63,7 @@ brew hicolor-icon-theme
 brew htop
 brew hugo
 brew icu4c
+brew idris
 brew ilmbase
 brew imagemagick
 brew intltool
@@ -108,6 +109,7 @@ brew netpbm
 brew nettle
 brew nginx
 brew nkf
+brew node
 brew nodebrew
 brew ocaml
 brew ocamlbuild
@@ -130,6 +132,7 @@ brew pstree
 brew pyenv
 brew pyenv-virtualenv
 brew python
+brew python3
 brew rbenv
 brew readline
 brew rename
@@ -179,7 +182,7 @@ brew screenutf8 --utf8
 brew phpenv
 
 # App Store applications
-appstore 1024640650 CotEditor (3.1.8)
+appstore 1024640650 CotEditor (3.2.1)
 appstore 493949693 iMage Tools (1.0.16)
-appstore 715768417 Microsoft Remote Desktop (8.0.27253)
-appstore 497799835 Xcode (8.3.2)
+appstore 715768417 Microsoft Remote Desktop (8.0.27325)
+appstore 497799835 Xcode (8.3.3)
