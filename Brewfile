@@ -1,20 +1,6 @@
 
 # tap repositories and their packages
 
-tap argon/mas
-brew mas
-
-tap caskroom/cask
-cask java
-
-tap caskroom/fonts
-cask font-myrica
-cask font-myricam
-
-tap homebrew/binary
-
-tap homebrew/boneyard
-
 tap homebrew/core
 brew ack
 brew aspcud
@@ -22,12 +8,12 @@ brew aspell
 brew atk
 brew autoconf
 brew automake
+brew aws-elasticbeanstalk
 brew awscli
 brew bdw-gc
 brew boost
 brew cairo
 brew camlp4
-brew clasp
 brew cmake
 brew curl
 brew doxygen
@@ -46,13 +32,14 @@ brew ghostscript
 brew giflib
 brew git
 brew git-flow
+brew git-secrets
 brew glib
 brew gmp
 brew gnutls
+brew go
 brew gobject-introspection
 brew graphite2
 brew graphviz
-brew gringo
 brew gsasl
 brew gsettings-desktop-schemas
 brew gtk+3
@@ -101,7 +88,9 @@ brew lua
 brew lzlib
 brew mailutils
 brew makedepend
+brew mas
 brew maven
+brew mongodb
 brew mono
 brew mysql
 brew nailgun
@@ -122,7 +111,7 @@ brew p11-kit
 brew pandoc
 brew pango
 brew pcre
-brew phantomjs
+brew phplint
 brew pidof
 brew pixman
 brew pkg-config
@@ -132,7 +121,7 @@ brew pstree
 brew pyenv
 brew pyenv-virtualenv
 brew python
-brew python3
+brew python@2
 brew rbenv
 brew readline
 brew rename
@@ -162,15 +151,21 @@ brew xz
 brew yasm
 brew zsh
 
+tap homebrew/binary
+
+tap homebrew/boneyard
+
 tap homebrew/dupes
 
 tap homebrew/php
-brew php-build
-brew php70
-brew phplint
-brew psysh
 
 tap homebrew/versions
+
+tap argon/mas
+
+tap caskroom/cask
+
+tap caskroom/fonts
 
 tap rcmdnk/file
 brew brew-file
@@ -179,7 +174,19 @@ tap rcmdnk/rcmdnkpac
 brew screenutf8 --utf8
 
 # Other Homebrew packages
+brew clasp
+brew gringo
+brew phantomjs
+brew php-build
+brew php70
 brew phpenv
+brew psysh
+brew python3
+
+# Other Cask applications
+cask font-myrica
+cask font-myricam
+cask java
 
 # App Store applications
 appstore 1024640650 CotEditor (3.2.1)
