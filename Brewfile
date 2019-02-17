@@ -15,6 +15,7 @@ brew boost
 brew cairo
 brew camlp4
 brew cmake
+brew composer
 brew curl
 brew doxygen
 brew drip
