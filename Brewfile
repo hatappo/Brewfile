@@ -128,7 +128,6 @@ brew readline
 brew rename
 brew rlwrap
 brew rmtrash
-brew ruby
 brew ruby-build
 brew sbcl
 brew sbt
